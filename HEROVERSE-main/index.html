@@ -1,53 +1,59 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./src/assets/icon.png">
-    <title>AquaScan - Início</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS EXTERNO-->
+  <link rel="stylesheet" href="./src/css/estilo.css">
+  <title>Projeto Aqua</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <img src="./src/assets/logo.png" class="logo" alt="Logo">
-            <button id="menuBtn">
-                <span id="hamburg"></span>
-            </button>
-            <ul class="nav-menu">
-                <li><a href="#">Início</a></li>
-                <li><a href="#projeto">Projeto Aqua</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a href="#" class="btn">Login</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main class="main">
-        <section id="projeto">
-            <img id="banner" src="./src/assets/banner.jpg" alt="Banner">
-            <div>
-                <span id="contador"></span>
-                <h3>PROJETO AQUA</h3>
-                <p>Conheça o Projeto Aqua, uma iniciativa para preservar e proteger os ecossistemas aquáticos do planeta.</p>
-            </div>
-        </section>
 
-        <section id="contato">
-            <h2>Não perca novidades</h2>
-            <input type="email" id="email" class="info-email" placeholder="Cadastre seu e-mail">                      
-            <p class="mensagem hidden">Obrigado! Recebemos seu e-mail!</p>
-        </section>
-    </main>
+  <header>
+    <img src="src/assets/logo.webp" id="logo" alt="Logo Carro">
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="">Sobre nós</a></li>
+        <li><a href="">Aqua</a></li>
+        <li><a href="">Infos</a></li>
+        <li><a href="" class="btn">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <footer>
-        <img src="./src/assets/logo.png" class="logo" alt="Logo">
-        <p>Bem-vindo ao AquaScan, sua fonte definitiva de informações sobre a preservação dos ecossistemas aquáticos. Aqui você encontrará tudo o que precisa saber sobre os esforços para proteger os mares, oceanos, rios e lagos em todo o mundo.</p>
-        <h5>© 2024 - Todos os direitos reservados.</h5>
-    </footer>
+  <section class="home">
+    <div class="home-text order-1">
+      <h1>Projeto Aqua: Monitoramento da Temperatura da Água</h1>
+      <h2 class="titulo1">Problema</h2>
+      <p>O aumento da temperatura da água em lagos e rios devido às mudanças climáticas representa uma ameaça séria para o ecossistema aquático.</p>
+      <p>As consequências incluem o desequilíbrio dos ecossistemas aquáticos, o declínio da biodiversidade, a morte de espécies aquáticas sensíveis ao calor e o aumento de algas nocivas.</p>
+    </div>
 
-    <script src="./src/javascript/script.js"></script>
+    <div class="home-image order-2">
+      <img src="src/assets/problem.jpg" alt="Ilustração do problema">
+    </div>
+  </section>
+
+  <section class="solution">
+    <div class="solution-text order-1">
+      <h2 class="titulo2">Solução</h2>
+      <p>Com o Projeto Aqua, estamos desenvolvendo uma solução inovadora para monitorar e combater esse problema.</p>
+      <p>Nossa abordagem inclui a instalação de dispositivos de monitoramento de temperatura da água em locais estratégicos.</p>
+      <p>Esses dispositivos coletam dados em tempo real e os disponibilizam em uma plataforma online acessível ao público.</p>
+      <p>Ao acompanhar de perto as mudanças na temperatura da água, podemos tomar medidas preventivas para proteger a vida aquática e preservar o ecossistema para as gerações futuras.</p>
+    </div>
+
+    <div class="solution-image order-2">
+      <img src="src/assets/solution.jpg" alt="Ilustração da solução">
+    </div>
+  </section>
+
+  <script src="./src/js/script.js"></script>
 </body>
+
 </html>
 
