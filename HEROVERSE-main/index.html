@@ -1,31 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--CSS EXTERNO-->
+  <!-- CSS EXTERNO -->
   <link rel="stylesheet" href="./src/css/estilo.css">
   <title>Projeto Aqua</title>
 </head>
 
 <body>
 
-
   <header>
-    <img src="src/assets/logo.webp" id="logo" alt="Logo Carro">
+    <img src="src/assets/cards/oceano.jpg" id="logo" alt="Logo monitorar">
     <nav>
       <ul class="nav-menu">
-        <li><a href="">Sobre nós</a></li>
-        <li><a href="">Aqua</a></li>
-        <li><a href="">Infos</a></li>
-        <li><a href="" class="btn">Donate</a></li>
+        <li><a href="#home">Sobre nós</a></li>
+        <li><a href="#solution">Solução</a></li>
+        <li><a href="#aqua">Aqua</a></li>
+        <li><a href="#infos">Infos</a></li>
+        <li><a href="#" class="btn">Donate</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="home">
+  <section id="home" class="home">
     <div class="home-text order-1">
       <h1>Projeto Aqua: Monitoramento da Temperatura da Água</h1>
       <h2 class="titulo1">Problema</h2>
@@ -34,11 +33,11 @@
     </div>
 
     <div class="home-image order-2">
-      <img src="src/assets/problem.jpg" alt="Ilustração do problema">
+      <img src="src/assets/cards/fundo do mar.jpg" alt="Ilustração do problema">
     </div>
   </section>
 
-  <section class="solution">
+  <section id="solution" class="solution">
     <div class="solution-text order-1">
       <h2 class="titulo2">Solução</h2>
       <p>Com o Projeto Aqua, estamos desenvolvendo uma solução inovadora para monitorar e combater esse problema.</p>
@@ -48,12 +47,32 @@
     </div>
 
     <div class="solution-image order-2">
-      <img src="src/assets/solution.jpg" alt="Ilustração da solução">
+      <img src="src/assets/cards/aqua.jpg" alt="Ilustração da solução">
     </div>
   </section>
+
+  <section id="aqua" class="aqua-info">
+    <div class="aqua-info-text">
+      <h2 class="titulo-aqua">Aqua</h2>
+      <p>Conteúdo sobre o projeto Aqua...</p>
+    </div>
+  </section>
+
+  <section id="infos" class="infos-info">
+    <div class="infos-info-text">
+      <h2 class="titulo-info">Infos</h2>
+      <p>Conteúdo informativo...</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>Projeto Aqua - Todos os direitos reservados.</p>
+      <p>Agradecemos o apoio de nossos parceiros e colaboradores.</p>
+    </div>
+  </footer>
 
   <script src="./src/js/script.js"></script>
 </body>
 
 </html>
-
