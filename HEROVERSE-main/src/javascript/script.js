@@ -35,4 +35,14 @@ function carregarConteudoJSON() {
 
 // Chamar a função para carregar o conteúdo do JSON quando a página for carregada
 document.addEventListener('DOMContentLoaded', carregarConteudoJSON);
+// Função para rolagem suave ao clicar nos links do menu
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
 
