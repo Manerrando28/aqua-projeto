@@ -5,31 +5,19 @@
     box-sizing: border-box;
 }
 
-/* Estilos gerais */
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
-}
-
-/* Cabeçalho */
+/* Estilos para o cabeçalho */
 header {
     background-color: #ffffff;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
+#logo {
     width: 150px;
     height: auto;
 }
 
-/* Menu de Navegação */
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
+/* Estilos para o menu de navegação */
 .nav-menu {
     list-style: none;
     display: flex;
@@ -48,59 +36,64 @@ nav {
     color: #333333;
 }
 
-/* Seções Principais */
-.main {
+/* Estilos para as seções */
+.home {
     padding: 40px 20px;
+    text-align: center;
+    background-color: #e9ecef; /* Cor de fundo para a seção Home */
 }
 
-#projeto {
+.aqua-info {
+    padding: 40px 20px;
     text-align: center;
+    background-color: #d8e2dc; /* Cor de fundo para a seção Aqua */
+}
+
+.infos-info {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #dee2e6; /* Cor de fundo para a seção Infos */
+}
+
+.home-text,
+.aqua-info-text,
+.infos-info-text {
     margin-bottom: 40px;
 }
 
-#projeto img {
-    max-width: 100%;
-    height: auto;
+.home-text p,
+.aqua-info-text p,
+.infos-info-text p {
     margin-bottom: 20px;
 }
 
-#contador {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ff4500;
+.titulo1,
+.titulo-aqua,
+.titulo-info {
+    color: #007bff; /* Cor dos títulos das seções */
 }
 
-#titulo {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#contato {
-    text-align: center;
-}
-
-#contato h2 {
-    margin-bottom: 20px;
-}
-
-#contato input {
-    padding: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-    max-width: 300px;
-}
-
-/* Rodapé */
-footer {
-    background-color: #333333;
+.btn {
+    background-color: #007bff;
     color: #ffffff;
-    padding: 40px 20px;
-    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
-footer img {
-    width: 100px;
-    height: auto;
-    margin-bottom: 20px;
+.btn:hover {
+    background-color: #0056b3;
 }
+/* Estilos para o cabeçalho */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 
